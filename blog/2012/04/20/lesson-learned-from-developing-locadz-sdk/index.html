@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Locadz Blog</title>
+  <title>Lesson Learned form Developing Locadz SDK - Locadz Blog</title>
   <meta name="author" content="Locadz Team">
 
   
@@ -19,7 +19,7 @@ UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://locadz.github.com/blog">
+  <link rel="canonical" href="http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk">
   <link href="/blog/favicon.png" rel="icon">
   <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/blog/javascripts/modernizr-2.0.js"></script>
@@ -73,15 +73,12 @@ UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/">Lesson Learned Form Developing Locadz SDK</a></h1>
+      <h1 class="entry-title">Lesson Learned Form Developing Locadz SDK</h1>
     
     
       <p class="meta">
@@ -104,7 +101,7 @@ UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什
   </header>
 
 
-  <div class="entry-content"><div class="section" id="introduction">
+<div class="entry-content"><div class="section" id="introduction">
 <h2>Introduction</h2>
 <dl class="docutils">
 <dt>市面上大部份講 Android 的書，多數都是在講 API 要怎麼樣使用，但是，許多的書都沒有提到一個重要的問題，就是什麼是</dt>
@@ -422,18 +419,59 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
 </span><span class="line">  <span class="o">}</span>
 </span><span class="line"><span class="o">}</span>
 </span></code></pre></td></tr></table></div></figure></div></div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Locadz Team</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2012-04-20T23:07:00+08:00" pubdate data-updated="true">Apr 20<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
   
-  <div class="pagination">
-    
-    <a href="/blog/blog/archives">Blog Archives</a>
-    
-  </div>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/" data-via="locadzmyapp" data-counturl="http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -451,7 +489,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -471,6 +509,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -485,7 +524,10 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
       var disqus_shortname = 'locadz';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/';
+        var disqus_url = 'http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

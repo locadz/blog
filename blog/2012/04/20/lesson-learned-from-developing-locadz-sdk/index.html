@@ -9,8 +9,9 @@
   <meta name="author" content="Locadz Team">
 
   
-  <meta name="description" content="Introduction 市面上大部份講 Android 的書，多數都是在講 API 要怎麼樣使用，但是，許多的書都沒有提到一個重要的問題，就是什麼是
-UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什麼不可以在 UI Thread &hellip;">
+  <meta name="description" content="Introduction
+市面上大部份講 Android 的書，多數都是在講 API 要怎麼樣使用，但是，許多的書都沒有提到一個重要的問題，就是什
+麼是 UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什麼不可以在 UI Thread &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -103,10 +104,8 @@ UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什
 
 <div class="entry-content"><div class="section" id="introduction">
 <h2>Introduction</h2>
-<dl class="docutils">
-<dt>市面上大部份講 Android 的書，多數都是在講 API 要怎麼樣使用，但是，許多的書都沒有提到一個重要的問題，就是什麼是</dt>
-<dd>UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什麼不可以在 UI Thread 中執行耗時間的運算。</dd>
-</dl>
+<p>市面上大部份講 Android 的書，多數都是在講 API 要怎麼樣使用，但是，許多的書都沒有提到一個重要的問題，就是什
+麼是 UI Thread (有時被稱做Main Thread) ，為什麼要有 UI Thread 以及為什麼不可以在 UI Thread 中執行耗時間的運算。</p>
 <p>在本文中，我講談一談我們在開發Locadz SDK所使用到的一些技巧。</p>
 </div>
 <div class="section" id="ui-thread">
@@ -316,7 +315,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
 <h2>Lesson III: Use Disk Cache instead of (Main) Memory Cache</h2>
 <p>底下的圖表，是Jeff Dean發表的，在談的是讀取資料的的效率，我們把這幾個數字先記起來，
 再加一個代表UI設計時人體覺得是即時反應的反應時間上限 100 ms。然後我們再來談 Android UI 的設計。</p>
-<img alt="/images/numbers-everyone-should-know.png" src="/blog/images/numbers-everyone-should-know.png" />
+<img alt="/images/2012-04-20/numbers-everyone-should-know.png" src="/blog/images/2012-04-20/numbers-everyone-should-know.png" />
 <p>大家可以看到 Main Memory Reference(0.001ms) 與 Disk Seek(10ms) Disk Read(30ms) 的重大差
 距，然而，後者的數字在 Mobile Phone 上就不是這樣了。在 Mobile Phone 上，傳統的硬碟扮演的角色，
 被NAND Flash Memory, External SD Card所取代了。在存取效率上 NAND Flash Memory 雖然不
@@ -460,6 +459,8 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/" title="Next Post: 透過 Locadz 最大化 App 華文廣告效應">透過 Locadz 最大化 App 華文廣告效應 &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -477,6 +478,10 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/">透過 Locadz 最大化 App 華文廣告效應</a>
+      </li>
     
       <li class="post">
         <a href="/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/">Lesson Learned form Developing Locadz SDK</a>

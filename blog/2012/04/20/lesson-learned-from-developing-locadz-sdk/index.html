@@ -21,11 +21,11 @@
 
   
   <link rel="canonical" href="http://blog.locadz.com//blog/2012/04/20/lesson-learned-from-developing-locadz-sdk">
-  <link href="/blog/favicon.png" rel="icon">
-  <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/blog/javascripts/modernizr-2.0.js"></script>
-  <script src="/blog/javascripts/ender.js"></script>
-  <script src="/blog/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/blog/atom.xml" rel="alternate" title="Locadz Blog" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -49,7 +49,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/blog/">Locadz Blog</a></h1>
+  <h1><a href="/">Locadz Blog</a></h1>
   
 </hgroup>
 
@@ -67,8 +67,8 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/blog/">Blog</a></li>
-  <li><a href="/blog/blog/archives">Archives</a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
@@ -315,7 +315,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
 <h2>Lesson III: Use Disk Cache instead of (Main) Memory Cache</h2>
 <p>底下的圖表，是Jeff Dean發表的，在談的是讀取資料的的效率，我們把這幾個數字先記起來，
 再加一個代表UI設計時人體覺得是即時反應的反應時間上限 100 ms。然後我們再來談 Android UI 的設計。</p>
-<img alt="/images/2012-04-20/numbers-everyone-should-know.png" src="/blog/images/2012-04-20/numbers-everyone-should-know.png" />
+<img alt="/images/2012-04-20/numbers-everyone-should-know.png" src="/images/2012-04-20/numbers-everyone-should-know.png" />
 <p>大家可以看到 Main Memory Reference(0.001ms) 與 Disk Seek(10ms) Disk Read(30ms) 的重大差
 距，然而，後者的數字在 Mobile Phone 上就不是這樣了。在 Mobile Phone 上，傳統的硬碟扮演的角色，
 被NAND Flash Memory, External SD Card所取代了。在存取效率上 NAND Flash Memory 雖然不
@@ -459,7 +459,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
     <p class="meta">
       
       
-        <a class="basic-alignment right" href="/blog/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/" title="Next Post: 透過 Locadz 最大化 App 華文廣告效應">透過 Locadz 最大化 App 華文廣告效應 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/" title="Next Post: 透過 Locadz 最大化 App 華文廣告效應">透過 Locadz 最大化 App 華文廣告效應 &raquo;</a>
       
     </p>
   </footer>
@@ -480,11 +480,11 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/">透過 Locadz 最大化 App 華文廣告效應</a>
+        <a href="/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/">透過 Locadz 最大化 App 華文廣告效應</a>
       </li>
     
       <li class="post">
-        <a href="/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/">Lesson Learned form Developing Locadz SDK</a>
+        <a href="/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/">Lesson Learned form Developing Locadz SDK</a>
       </li>
     
   </ul>
@@ -501,7 +501,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
       getTwitterFeed("locadzmyapp", 4, false);
     });
   </script>
-  <script src="/blog/javascripts/twitter.js" type="text/javascript"> </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/locadzmyapp" class="twitter-follow-button" data-show-count="false">Follow @locadzmyapp</a>
   

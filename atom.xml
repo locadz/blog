@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Locadz Blog]]></title>
-  <link href="http://locadz.github.com/blog/atom.xml" rel="self"/>
-  <link href="http://locadz.github.com/blog/"/>
-  <updated>2012-04-21T16:30:19+08:00</updated>
-  <id>http://locadz.github.com/blog/</id>
+  <link href="http://blog.locadz.com//atom.xml" rel="self"/>
+  <link href="http://blog.locadz.com//"/>
+  <updated>2012-04-21T16:39:50+08:00</updated>
+  <id>http://blog.locadz.com//</id>
   <author>
     <name><![CDATA[Locadz Team]]></name>
     
@@ -15,16 +15,16 @@
   
   <entry>
     <title type="html"><![CDATA[透過 Locadz 最大化 App 華文廣告效應]]></title>
-    <link href="http://locadz.github.com/blog/blog/2012/04/21/maximize-ad-revenue-in-chinese-market/"/>
+    <link href="http://blog.locadz.com//blog/2012/04/21/maximize-ad-revenue-in-chinese-market/"/>
     <updated>2012-04-21T01:55:00+08:00</updated>
-    <id>http://locadz.github.com/blog/blog/2012/04/21/maximize-ad-revenue-in-chinese-market</id>
+    <id>http://blog.locadz.com//blog/2012/04/21/maximize-ad-revenue-in-chinese-market</id>
     <content type="html"><![CDATA[<p>在這篇文章中，我將一步步的講解，如何透過 Locadz 來將你的 App 的華文廣告效應最大化。</p>
 <div class="section" id="locadz">
 <h2>註冊一個 Locadz 的帳號</h2>
 <p>註冊 Locadz 帳號是一件簡單的事，我們使用 OpenID 的方式來管理你的帳號，你可以使用任何第三
 方的 OpenID 帳號如 GMail or Yahoo 帳號，來登入 Locadz ；我們只保存你的 email 資訊，其
 餘資料，仍是保存在你原始的帳號提供者那邊，你也不用煩惱需要多記一組密碼。</p>
-<img alt="/images/2012-04-21/sign-up.png" src="http://locadz.github.com/blog/images/2012-04-21/sign-up.png" />
+<img alt="/images/2012-04-21/sign-up.png" src="http://blog.locadz.com//images/2012-04-21/sign-up.png" />
 </div>
 <div class="section" id="adunit">
 <h2>註冊一個 AdUnit 區塊</h2>
@@ -189,9 +189,9 @@ width="600" height="400" seamless="seamless" scrolling="no" frameborder="0" allo
   
   <entry>
     <title type="html"><![CDATA[Lesson Learned form Developing Locadz SDK]]></title>
-    <link href="http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/"/>
+    <link href="http://blog.locadz.com//blog/2012/04/20/lesson-learned-from-developing-locadz-sdk/"/>
     <updated>2012-04-20T23:07:00+08:00</updated>
-    <id>http://locadz.github.com/blog/blog/2012/04/20/lesson-learned-from-developing-locadz-sdk</id>
+    <id>http://blog.locadz.com//blog/2012/04/20/lesson-learned-from-developing-locadz-sdk</id>
     <content type="html"><![CDATA[<div class="section" id="introduction">
 <h2>Introduction</h2>
 <p>市面上大部份講 Android 的書，多數都是在講 API 要怎麼樣使用，但是，許多的書都沒有提到一個重要的問題，就是什
@@ -405,7 +405,7 @@ Touch Event，或者是其它程式或者是系統底層的事件，如 Intent �
 <h2>Lesson III: Use Disk Cache instead of (Main) Memory Cache</h2>
 <p>底下的圖表，是Jeff Dean發表的，在談的是讀取資料的的效率，我們把這幾個數字先記起來，
 再加一個代表UI設計時人體覺得是即時反應的反應時間上限 100 ms。然後我們再來談 Android UI 的設計。</p>
-<img alt="/images/2012-04-20/numbers-everyone-should-know.png" src="http://locadz.github.com/blog/images/2012-04-20/numbers-everyone-should-know.png" />
+<img alt="/images/2012-04-20/numbers-everyone-should-know.png" src="http://blog.locadz.com//images/2012-04-20/numbers-everyone-should-know.png" />
 <p>大家可以看到 Main Memory Reference(0.001ms) 與 Disk Seek(10ms) Disk Read(30ms) 的重大差
 距，然而，後者的數字在 Mobile Phone 上就不是這樣了。在 Mobile Phone 上，傳統的硬碟扮演的角色，
 被NAND Flash Memory, External SD Card所取代了。在存取效率上 NAND Flash Memory 雖然不
